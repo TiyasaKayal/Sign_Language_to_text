@@ -10,6 +10,7 @@ https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 Approach:
 1. We obtain the dataset from the ASL alphabet, Image Data set for alphabets in the American sign language.
+
 2.Dataset preprocessing/cleaning(maximizing its information content) +Data augmentation(zooming ,rotating)+ Data Visualization using Matplotlib.
 3. Using the CNN approach for training the model on the above-augmented data.
 4. Using OpenCV we are getting the bounding box of hand signals in the webcam. Then we feed these boxes to the trained model for classification.
