@@ -14,4 +14,4 @@ Approach:
 
 3. Using the CNN approach for training the model on the above-augmented data.
 
-4. Using OpenCV we are getting the bounding box of hand signals in the webcam. Then we feed these boxes to the trained model for classification.
+4. Using OpenCV get the bounding box for hand signals in the webcam. Then we feed these boxes to the trained model for classification.
